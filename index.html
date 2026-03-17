@@ -4,7 +4,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <title>Colégio São Cristóvão</title>
   <style>
     /* Reset de estilo */
@@ -62,7 +61,7 @@
       margin: 20px 0;
     }
 
-    section#Cursos, section#Notícias, section#Contato {
+    section#SobreNos, section#Cursos, section#Notícias, section#Contato {
       background-color: #f1f1f1;
       border-radius: 8px;
     }
@@ -125,7 +124,6 @@
       }
     }
   </style>
-
 </head>
 
 <body>
@@ -135,6 +133,7 @@
     <p>Ensino de qualidade para um futuro brilhante</p>
   </header>
 
+  <!-- Navegação -->
   <nav>
     <ul>
       <li><a href="#SobreNos">Sobre Nós</a></li>
@@ -144,9 +143,10 @@
     </ul>
   </nav>
 
+  <!-- Seção Sobre Nós -->
   <section id="SobreNos">
     <h2>Bem-Vindos ao Colégio São Cristóvão</h2>
-    <p>Nossa escola oferece um ambiente acolhedor e inovador, com professores qualificados que visam o desenvolvimento integral dos alunos.</p>
+    <p>Nosso colégio oferece um ambiente inovador e acolhedor com ensino de qualidade, focado no desenvolvimento integral dos alunos.</p>
     
     <div class="img-container">
       <img src="escola1.jpg" alt="Imagem da escola">
@@ -169,33 +169,48 @@
     </ul>
   </section>
 
+  <!-- Seção Cursos -->
   <section id="Cursos">
     <h2>Cursos Oferecidos</h2>
-    <p>Conheça os cursos que oferecemos para o desenvolvimento completo dos nossos alunos.</p>
-    <!-- Adicione detalhes sobre os cursos aqui -->
+    <p>O Colégio São Cristóvão oferece uma ampla gama de cursos, com ênfase em formação acadêmica e desenvolvimento pessoal.</p>
+
+    <h3>Ensino Fundamental</h3>
+    <p>Curso voltado para a formação básica de alunos com idades entre 6 e 14 anos.</p>
+
+    <h3>Ensino Médio</h3>
+    <p>Preparação para o vestibular e mercado de trabalho com cursos e atividades voltadas para o desenvolvimento completo do aluno.</p>
+
+    <h3>Cursos de Aperfeiçoamento</h3>
+    <p>Oferecemos cursos extracurriculares como idiomas, música, esportes, entre outros.</p>
   </section>
 
+  <!-- Seção Notícias -->
   <section id="Notícias">
     <h2>Últimas Notícias</h2>
-    <p>Acompanhe as últimas atualizações e eventos do Colégio São Cristóvão.</p>
-    <!-- Adicione notícias ou atualizações aqui -->
+    <p>Confira as atualizações e eventos recentes do Colégio São Cristóvão.</p>
+
+    <h3>Evento de Ciências</h3>
+    <p>Nosso evento anual de ciências acontecerá no próximo mês. Participe e mostre seu projeto!</p>
+
+    <h3>Semana Cultural</h3>
+    <p>Prepare-se para a Semana Cultural! Vai ser uma ótima oportunidade de explorar diversas culturas.</p>
   </section>
 
+  <!-- Seção Contato -->
   <section id="Contato">
-    <h2>Contato</h2>
-    <p>Entre em contato conosco para mais informações.</p>
+    <h2>Entre em Contato</h2>
+    <p>Se você tem dúvidas ou precisa de mais informações, entre em contato conosco!</p>
     <p>Email: contato@colegiosaocristovao.com</p>
     <p>Telefone: (XX) XXXX-XXXX</p>
-    <!-- Adicione formulário de contato ou mapa aqui -->
   </section>
 
+  <!-- Rodapé -->
   <footer>
     <p>&copy; 2025 Colégio São Cristóvão. Todos os direitos reservados.</p>
   </footer>
 
   <!-- Script para navegação suave -->
   <script>
-    // Adiciona um comportamento de navegação suave
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
       anchor.addEventListener('click', function (e) {
         e.preventDefault();
