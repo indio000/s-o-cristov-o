@@ -4,223 +4,46 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Colégio São Cristóvão</title>
-  <style>
-    /* Reset de estilo */
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    body {
-      font-family: 'Arial', sans-serif;
-    }
-
-    /* Estilo do cabeçalho */
-    header {
-      background-color: #007bff;
-      color: white;
-      padding: 20px;
-      text-align: center;
-    }
-
-    /* Navegação */
-    nav {
-      background-color: #f8f9fa;
-      position: sticky;
-      top: 0;
-      z-index: 10;
-    }
-
-    nav ul {
-      list-style: none;
-      display: flex;
-      justify-content: center;
-      padding: 10px 0;
-    }
-
-    nav li {
-      margin: 0 15px;
-    }
-
-    nav a {
-      text-decoration: none;
-      color: #333;
-      font-weight: bold;
-      transition: color 0.3s;
-    }
-
-    nav a:hover {
-      color: #007bff;
-    }
-
-    /* Seções */
-    section {
-      padding: 50px 20px;
-      margin: 20px 0;
-    }
-
-    section#SobreNos, section#Cursos, section#Notícias, section#Contato {
-      background-color: #f1f1f1;
-      border-radius: 8px;
-    }
-
-    h2, h3 {
-      margin-bottom: 15px;
-    }
-
-    /* Estilo das imagens */
-    .img-container {
-      text-align: center;
-      margin-bottom: 20px;
-    }
-
-    .img-container img {
-      max-width: 100%;
-      height: auto;
-      border-radius: 8px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    }
-
-    /* Estilo da lista de diferenciais */
-    ul.diferenciais {
-      list-style-type: none;
-      padding: 0;
-    }
-
-    ul.diferenciais li {
-      background-color: #e9ecef;
-      margin: 8px 0;
-      padding: 10px;
-      border-radius: 5px;
-    }
-
-    /* Rodapé */
-    footer {
-      background-color: #333;
-      color: white;
-      text-align: center;
-      padding: 15px;
-    }
-
-    /* Responsividade */
-    @media (max-width: 768px) {
-      nav ul {
-        flex-direction: column;
-        padding: 0;
-      }
-
-      nav li {
-        margin: 10px 0;
-      }
-
-      .img-container img {
-        max-width: 80%;
-      }
-
-      section {
-        padding: 30px 10px;
-      }
-    }
-  </style>
+  <title>Sobre Nós - Colégio São Cristóvão</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
   <header>
-    <h1>Colégio São Cristóvão</h1>
-    <p>Ensino de qualidade para um futuro brilhante</p>
+    <h1>Sobre Nós</h1>
   </header>
 
-  <!-- Navegação -->
   <nav>
     <ul>
-      <li><a href="#SobreNos">Sobre Nós</a></li>
-      <li><a href="#Cursos">Cursos</a></li>
-      <li><a href="#Notícias">Notícias</a></li>
-      <li><a href="#Contato">Contato</a></li>
+      <li><a href="index.html">Início</a></li>
+      <li><a href="cursos.html">Cursos</a></li>
+      <li><a href="noticias.html">Notícias</a></li>
+      <li><a href="contato.html">Contato</a></li>
     </ul>
   </nav>
 
-  <!-- Seção Sobre Nós -->
-  <section id="SobreNos">
-    <h2>Bem-Vindos ao Colégio São Cristóvão</h2>
-    <p>Nosso colégio oferece um ambiente inovador e acolhedor com ensino de qualidade, focado no desenvolvimento integral dos alunos.</p>
-    
-    <div class="img-container">
-      <img src="escola1.jpg" alt="Imagem da escola">
-    </div>
+  <section>
+    <h2>Nosso Propósito</h2>
+    <p>O Colégio São Cristóvão visa proporcionar um ensino de qualidade, com foco no desenvolvimento integral de nossos alunos.</p>
 
-    <div class="img-container">
-      <img src="escola2.jpg" alt="Imagem da escola">
-    </div>
+    <h3>Missão</h3>
+    <p>Formar cidadãos críticos e preparados para os desafios do futuro, com uma educação que alinha tradição e inovação.</p>
 
-    <div class="img-container">
-      <img src="escola4.jpg" alt="Imagem da escola">
-    </div>
+    <h3>Visão</h3>
+    <p>Ser referência em ensino, com uma metodologia inovadora e acolhedora, promovendo o desenvolvimento pleno dos alunos.</p>
 
-    <h3>Nossos Diferenciais</h3>
-    <ul class="diferenciais">
-      <li>Ensino personalizado</li>
-      <li>Tecnologia em sala de aula</li>
-      <li>Projetos interdisciplinares</li>
-      <li>Foco no desenvolvimento de habilidades</li>
+    <h3>Valores</h3>
+    <ul>
+      <li>Compromisso com a educação de qualidade</li>
+      <li>Respeito à diversidade</li>
+      <li>Inovação e tecnologia na educação</li>
+      <li>Ética e responsabilidade social</li>
     </ul>
   </section>
 
-  <!-- Seção Cursos -->
-  <section id="Cursos">
-    <h2>Cursos Oferecidos</h2>
-    <p>O Colégio São Cristóvão oferece uma ampla gama de cursos, com ênfase em formação acadêmica e desenvolvimento pessoal.</p>
-
-    <h3>Ensino Fundamental</h3>
-    <p>Curso voltado para a formação básica de alunos com idades entre 6 e 14 anos.</p>
-
-    <h3>Ensino Médio</h3>
-    <p>Preparação para o vestibular e mercado de trabalho com cursos e atividades voltadas para o desenvolvimento completo do aluno.</p>
-
-    <h3>Cursos de Aperfeiçoamento</h3>
-    <p>Oferecemos cursos extracurriculares como idiomas, música, esportes, entre outros.</p>
-  </section>
-
-  <!-- Seção Notícias -->
-  <section id="Notícias">
-    <h2>Últimas Notícias</h2>
-    <p>Confira as atualizações e eventos recentes do Colégio São Cristóvão.</p>
-
-    <h3>Evento de Ciências</h3>
-    <p>Nosso evento anual de ciências acontecerá no próximo mês. Participe e mostre seu projeto!</p>
-
-    <h3>Semana Cultural</h3>
-    <p>Prepare-se para a Semana Cultural! Vai ser uma ótima oportunidade de explorar diversas culturas.</p>
-  </section>
-
-  <!-- Seção Contato -->
-  <section id="Contato">
-    <h2>Entre em Contato</h2>
-    <p>Se você tem dúvidas ou precisa de mais informações, entre em contato conosco!</p>
-    <p>Email: contato@colegiosaocristovao.com</p>
-    <p>Telefone: (XX) XXXX-XXXX</p>
-  </section>
-
-  <!-- Rodapé -->
   <footer>
     <p>&copy; 2025 Colégio São Cristóvão. Todos os direitos reservados.</p>
   </footer>
-
-  <!-- Script para navegação suave -->
-  <script>
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-      anchor.addEventListener('click', function (e) {
-        e.preventDefault();
-        document.querySelector(this.getAttribute('href')).scrollIntoView({
-          behavior: 'smooth'
-        });
-      });
-    });
-  </script>
-
 </body>
 
 </html>
